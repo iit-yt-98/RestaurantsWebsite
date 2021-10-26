@@ -10,7 +10,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material';
 import { MatSelectModule } from '@angular/material';
 import { MatSlideToggleModule } from '@angular/material';
-
+import { MatProgressSpinnerModule } from '@angular/material';
 
 
 import { AppComponent } from './app.component';
@@ -66,7 +66,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatCheckboxModule,
     ReactiveFormsModule,
     MatSelectModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    MatProgressSpinnerModule
   ],
   providers: [
     DishService,
